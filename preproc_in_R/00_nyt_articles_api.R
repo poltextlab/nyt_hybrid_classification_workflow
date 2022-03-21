@@ -339,7 +339,7 @@ logs_show_nothing_df %>%
 
 # source if length_zero error: api cannot find anything
 # example api link: 
-# http://api.nytimes.com/svc/search/v2/articlesearch.json?q=childcare+solutions+new+world+welfare&begin_date=19970601&end_date=19970601&api-key=v0SGGKaGMrxH3xVx5GanCYoR3tOGffYG
+# http://api.nytimes.com/svc/search/v2/articlesearch.json?q=childcare+solutions+new+world+welfare&begin_date=19970601&end_date=19970601&api-key=your-api-key
 
 
 nyt_api_fix <- nyt_api_merge %>% 
