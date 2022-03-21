@@ -21,8 +21,6 @@ This script applies the preprocessing steps described in the article: stemming, 
 
 If the database rebuilding is not an option, you can use the cleaned "Data_NYT_clean_SPARK_START_sim.csv" as input for the analysis.
 
-The main input file: 
-
 ## Specifications for the Spark cluster
 
 The rest of the steps (with the exception of the baseline models run for comparison) run in an Apache Spark cluster. The code has been tested to run with the following cluster setup and software environment:
